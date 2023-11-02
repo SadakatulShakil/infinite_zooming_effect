@@ -1,6 +1,6 @@
 name: infinite_zoom_effect
 description: this is an infinite zooming effect package. User can give multiple image, customise its scaling and position to make that image infinite zoomable. like this https://zoomquilt.org/
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/SadakatulShakil/infinite_zooming_effect
 
 environment:
@@ -22,7 +22,8 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
 
-  # To add assets to your package, add an assets section, like this:
+  assets:
+    - example/
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
